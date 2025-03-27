@@ -94,3 +94,4 @@ O sistema responde automaticamente de acordo com o nível de ameaça:
 ├── requirements.txt         # Dependências do projeto
 └── logs/                    # Diretório de logs (criado automaticamente)
 ```
+
