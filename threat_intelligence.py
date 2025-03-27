@@ -9,7 +9,7 @@ import streamlit as st
 class ThreatIntelligence:
     """Classe para análise de inteligência de ameaças"""
     
-    def _init_(self, config):
+    def __init__(self, config):
         self.config = config
         self.llm = self._initialize_llm()
         self.prompt = self._create_prompt()
@@ -46,9 +46,9 @@ class ThreatIntelligence:
             
             Determine o nível de ameaça como ALTO, MÉDIO ou BAIXO com base nos padrões a seguir:
             
-            - ALTO: IPs envolvidos em ataques de força bruta, execução remota de código, propagação de malware, comunicação com C&C, ou qualquer IP dos padrões 192.168.1., 10.0.0., 172.16.0., 45.33., 104.131., 185.25., 159.65.*
+            - ALTO: IPs envolvidos em ataques de força bruta, execução remota de código, propagação de malware, comunicação com C&C, ou qualquer IP dos padrões 192.168.1.*, 10.0.0.*, 172.16.0.*, 45.33.*, 104.131.*, 185.25.*, 159.65.*
             
-            - MÉDIO: IPs envolvidos em atividade suspeita, comportamento anômalo, transferência incomum de dados, ou qualquer IP dos padrões 8.8.8., 1.1.1., 208.67.222., 195.12.
+            - MÉDIO: IPs envolvidos em atividade suspeita, comportamento anômalo, transferência incomum de dados, ou qualquer IP dos padrões 8.8.8.*, 1.1.1.*, 208.67.222.*, 195.12.*
             
             - BAIXO: IPs com atividade incomum mas provavelmente benigna, possíveis falsos positivos.
             
@@ -275,4 +275,4 @@ class ThreatIntelligence:
             "level": level,
             "score": threat_score,
             "details": details
-        }
+        } 
