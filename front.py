@@ -80,12 +80,12 @@ class SecurityUI:
         if current_time - st.session_state.last_monitoring_time >= 10:
             self.network_monitor.start_monitoring()
             st.session_state.last_monitoring_time = current_time
-        
+            
         # Simular um ataque a cada 7 segundos
         if current_time - st.session_state.last_attack_time >= 7:
             self._simulate_random_attack()
             st.session_state.last_attack_time = current_time
-            
+    
     def _simulate_attack_by_level(self, risk_level):
         """Simula um ataque de nível específico (alto, médio ou baixo)"""
         # Lista de IPs por categoria de risco
@@ -146,6 +146,16 @@ class SecurityUI:
         
         # Analisar a ameaça
         self.security_agent.analyze_threat(threat_data)
+    
+    def _render_logs(self):
+        """Renderiza seção de logs"""
+        st.subheader("📝 Logs em Tempo Real")
+        log_container = st.empty()
+        
+        # Mostrar logs recentes
+        logs = self.logger.get_recent_logs(30)
+        log_text = "\n".join([f"{log['timestamp']} - {log['message']}" for log in logs])
+        log_container.text_area("Últimos 30 logs", log_text, height=400)
     
     def _render_header(self):
         """Renderiza o cabeçalho da aplicação"""
@@ -359,16 +369,6 @@ class SecurityUI:
         
         # Analisar a ameaça
         self.security_agent.analyze_threat(threat_data)
-    
-    def _render_logs(self):
-        """Renderiza seção de logs"""
-        st.subheader("📝 Logs em Tempo Real")
-        log_container = st.empty()
-        
-        # Mostrar logs recentes
-        logs = self.logger.get_recent_logs(30)
-        log_text = "\n".join([f"{log['timestamp']} - {log['message']}" for log in logs])
-        log_container.text_area("Últimos 30 logs", log_text, height=400)
     
     def _render_sidebar(self):
         """Renderiza a barra lateral com informações essenciais"""
