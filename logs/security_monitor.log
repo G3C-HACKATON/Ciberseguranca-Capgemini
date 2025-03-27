@@ -1,0 +1,1893 @@
+2025-03-27 15:51:58,215 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:51:59,112 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 172.16.0.141:40597 via HTTPS - Risco ALTO
+2025-03-27 15:51:59,112 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.141
+2025-03-27 15:51:59,613 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.141
+2025-03-27 15:51:59,613 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:51:59,613 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.141 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:51:59,614 - INFO - SUCCESS: ✅ IP 172.16.0.141 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:51:59,614 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:51:59,614 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 208.67.222.169:10974 via TCP - Risco MÉDIO
+2025-03-27 15:51:59,614 - INFO - ⚠️ Analisando ameaça do IP: 208.67.222.169
+2025-03-27 15:52:00,115 - INFO - IP 208.67.222.169 adicionado ao monitoramento contínuo
+2025-03-27 15:52:00,115 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-03-27 15:52:00,115 - INFO - 👁️ IP 208.67.222.169 adicionado ao monitoramento contínuo
+2025-03-27 15:52:00,115 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.24:38056 via TCP - Risco BAIXO
+2025-03-27 15:52:00,116 - INFO - ⚠️ Analisando ameaça do IP: 13.32.24
+2025-03-27 15:52:00,616 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:00,617 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:00,617 - INFO - Ciclo de monitoramento #1: Iniciado com 4 eventos
+2025-03-27 15:52:00,617 - INFO - Tráfego normal: Web acesso de 46.240.195.229
+2025-03-27 15:52:00,618 - INFO - Tráfego normal: Email conexão de 137.55.226.28
+2025-03-27 15:52:00,618 - INFO - Tráfego normal: FTP conexão de 23.208.244.69
+2025-03-27 15:52:00,618 - INFO - Tráfego normal: DNS solicitação de 89.151.2.145
+2025-03-27 15:52:00,618 - INFO - SUCCESS: Ciclo de monitoramento #1: Concluído
+2025-03-27 15:52:06,427 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:06,427 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:07,289 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 1.1.1.64:38096 via SMB - Risco MÉDIO
+2025-03-27 15:52:07,289 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 1.1.1.64:38096 via SMB - Risco MÉDIO
+2025-03-27 15:52:07,290 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.64
+2025-03-27 15:52:07,290 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.64
+2025-03-27 15:52:07,790 - INFO - IP 1.1.1.64 adicionado ao monitoramento contínuo
+2025-03-27 15:52:07,790 - INFO - IP 1.1.1.64 adicionado ao monitoramento contínuo
+2025-03-27 15:52:07,791 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-03-27 15:52:07,791 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-03-27 15:52:07,791 - INFO - 👁️ IP 1.1.1.64 adicionado ao monitoramento contínuo
+2025-03-27 15:52:07,791 - INFO - 👁️ IP 1.1.1.64 adicionado ao monitoramento contínuo
+2025-03-27 15:52:12,893 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:12,893 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:12,893 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:13,804 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:13,804 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:13,804 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:13,804 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-03-27 15:52:13,804 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-03-27 15:52:13,804 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Web solicitação de 215.250.222.29
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Web solicitação de 215.250.222.29
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Web solicitação de 215.250.222.29
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Email solicitação de 210.204.154.150
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Email solicitação de 210.204.154.150
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Email solicitação de 210.204.154.150
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Web acesso de 86.24.139.195
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Web acesso de 86.24.139.195
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Web acesso de 86.24.139.195
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Database solicitação de 222.239.93.37
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Database solicitação de 222.239.93.37
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Database solicitação de 222.239.93.37
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Database acesso de 155.218.160.76
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Database acesso de 155.218.160.76
+2025-03-27 15:52:13,805 - INFO - Tráfego normal: Database acesso de 155.218.160.76
+2025-03-27 15:52:13,805 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-03-27 15:52:13,805 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-03-27 15:52:13,805 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-03-27 15:52:18,894 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:18,894 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:18,894 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:18,894 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:19,768 - INFO - ⚠️ ATAQUE SIMULADO: Acesso a Recursos Sensíveis de 151.101.83.147:2149 via SSH - Risco BAIXO
+2025-03-27 15:52:19,768 - INFO - ⚠️ ATAQUE SIMULADO: Acesso a Recursos Sensíveis de 151.101.83.147:2149 via SSH - Risco BAIXO
+2025-03-27 15:52:19,768 - INFO - ⚠️ ATAQUE SIMULADO: Acesso a Recursos Sensíveis de 151.101.83.147:2149 via SSH - Risco BAIXO
+2025-03-27 15:52:19,768 - INFO - ⚠️ ATAQUE SIMULADO: Acesso a Recursos Sensíveis de 151.101.83.147:2149 via SSH - Risco BAIXO
+2025-03-27 15:52:19,768 - INFO - ⚠️ Analisando ameaça do IP: 151.101.83.147
+2025-03-27 15:52:19,768 - INFO - ⚠️ Analisando ameaça do IP: 151.101.83.147
+2025-03-27 15:52:19,768 - INFO - ⚠️ Analisando ameaça do IP: 151.101.83.147
+2025-03-27 15:52:19,768 - INFO - ⚠️ Analisando ameaça do IP: 151.101.83.147
+2025-03-27 15:52:20,291 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:20,291 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:20,291 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:20,291 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:25,398 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:25,398 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:25,398 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:25,398 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:25,398 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:26,263 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:26,263 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:26,263 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:26,263 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:26,263 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:26,263 - INFO - Ciclo de monitoramento #3: Iniciado com 4 eventos
+2025-03-27 15:52:26,263 - INFO - Ciclo de monitoramento #3: Iniciado com 4 eventos
+2025-03-27 15:52:26,263 - INFO - Ciclo de monitoramento #3: Iniciado com 4 eventos
+2025-03-27 15:52:26,263 - INFO - Ciclo de monitoramento #3: Iniciado com 4 eventos
+2025-03-27 15:52:26,263 - INFO - Ciclo de monitoramento #3: Iniciado com 4 eventos
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: API conexão de 8.186.232.92
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: API conexão de 8.186.232.92
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: API conexão de 8.186.232.92
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: API conexão de 8.186.232.92
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: API conexão de 8.186.232.92
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email acesso de 208.142.54.159
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email acesso de 208.142.54.159
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email acesso de 208.142.54.159
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email acesso de 208.142.54.159
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email acesso de 208.142.54.159
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Web acesso de 115.225.226.5
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Web acesso de 115.225.226.5
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Web acesso de 115.225.226.5
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Web acesso de 115.225.226.5
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Web acesso de 115.225.226.5
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email solicitação de 202.203.107.25
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email solicitação de 202.203.107.25
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email solicitação de 202.203.107.25
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email solicitação de 202.203.107.25
+2025-03-27 15:52:26,264 - INFO - Tráfego normal: Email solicitação de 202.203.107.25
+2025-03-27 15:52:26,264 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-03-27 15:52:26,264 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-03-27 15:52:26,264 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-03-27 15:52:26,264 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-03-27 15:52:26,264 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-03-27 15:52:31,359 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:31,359 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:31,359 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:31,359 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:31,359 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:31,359 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:32,251 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 185.25.170.143:34619 via SSH - Risco ALTO
+2025-03-27 15:52:32,251 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 185.25.170.143:34619 via SSH - Risco ALTO
+2025-03-27 15:52:32,251 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 185.25.170.143:34619 via SSH - Risco ALTO
+2025-03-27 15:52:32,251 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 185.25.170.143:34619 via SSH - Risco ALTO
+2025-03-27 15:52:32,251 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 185.25.170.143:34619 via SSH - Risco ALTO
+2025-03-27 15:52:32,251 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 185.25.170.143:34619 via SSH - Risco ALTO
+2025-03-27 15:52:32,252 - INFO - ⚠️ Analisando ameaça do IP: 185.25.170.143
+2025-03-27 15:52:32,252 - INFO - ⚠️ Analisando ameaça do IP: 185.25.170.143
+2025-03-27 15:52:32,252 - INFO - ⚠️ Analisando ameaça do IP: 185.25.170.143
+2025-03-27 15:52:32,252 - INFO - ⚠️ Analisando ameaça do IP: 185.25.170.143
+2025-03-27 15:52:32,252 - INFO - ⚠️ Analisando ameaça do IP: 185.25.170.143
+2025-03-27 15:52:32,252 - INFO - ⚠️ Analisando ameaça do IP: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 185.25.170.143
+2025-03-27 15:52:32,754 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,754 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,754 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,754 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,754 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,754 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,755 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=185.25.170.143 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:32,755 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=185.25.170.143 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:32,755 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=185.25.170.143 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:32,755 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=185.25.170.143 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:32,755 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=185.25.170.143 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:32,755 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=185.25.170.143 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:32,756 - INFO - SUCCESS: ✅ IP 185.25.170.143 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,756 - INFO - SUCCESS: ✅ IP 185.25.170.143 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,756 - INFO - SUCCESS: ✅ IP 185.25.170.143 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,756 - INFO - SUCCESS: ✅ IP 185.25.170.143 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,756 - INFO - SUCCESS: ✅ IP 185.25.170.143 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,756 - INFO - SUCCESS: ✅ IP 185.25.170.143 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:32,756 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:32,756 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:32,756 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:32,756 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:32,756 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:32,756 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:37,852 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,714 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Ciclo de monitoramento #4: Iniciado com 3 eventos
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,715 - INFO - Tráfego normal: DNS conexão de 113.103.169.173
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Database conexão de 24.17.46.136
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,716 - INFO - Tráfego normal: Web conexão de 220.214.158.216
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:38,717 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:43,803 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,665 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 172.16.0.61:62787 via UDP - Risco ALTO
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:44,666 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,167 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.61
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,171 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.61 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,173 - INFO - SUCCESS: ✅ IP 172.16.0.61 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:45,174 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:50,293 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,179 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Ciclo de monitoramento #5: Iniciado com 5 eventos
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego normal: Email solicitação de 195.119.78.167
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 91.49.160.227
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,180 - INFO - Tráfego suspeito detectado de 192.198.18.101
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego suspeito detectado de 217.121.135.218
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,181 - INFO - Tráfego normal: DNS conexão de 114.61.206.235
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:51,182 - INFO - SUCCESS: Ciclo de monitoramento #5: Concluído
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:56,277 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,140 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.148.56:15050 via SMB - Risco BAIXO
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,141 - INFO - ⚠️ Analisando ameaça do IP: 151.101.148.56
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:52:57,642 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:02,747 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,608 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Ciclo de monitoramento #6: Iniciado com 4 eventos
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,609 - INFO - Tráfego normal: Database solicitação de 134.93.176.134
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 16.95.252.57
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: FTP conexão de 55.165.223.226
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - Tráfego normal: API conexão de 8.240.131.222
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:03,610 - INFO - SUCCESS: Ciclo de monitoramento #6: Concluído
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:08,701 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,559 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.73.114:60811 via SMB - Risco BAIXO
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:09,560 - INFO - ⚠️ Analisando ameaça do IP: 13.32.73.114
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:10,061 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:15,148 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,009 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Ciclo de monitoramento #7: Iniciado com 5 eventos
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,010 - INFO - Tráfego normal: DNS acesso de 141.52.77.227
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego suspeito detectado de 44.163.100.223
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,011 - INFO - Tráfego normal: API conexão de 204.117.80.75
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Database conexão de 130.172.181.213
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,012 - INFO - Tráfego normal: Email conexão de 151.41.38.185
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:16,013 - INFO - SUCCESS: Ciclo de monitoramento #7: Concluído
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,973 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 45.33.110.43:61471 via HTTP - Risco ALTO
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:21,974 - INFO - ⚠️ Analisando ameaça do IP: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,476 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 45.33.110.43
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,481 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,484 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=45.33.110.43 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,491 - INFO - SUCCESS: ✅ IP 45.33.110.43 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:22,498 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:27,602 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,466 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,467 - INFO - Ciclo de monitoramento #8: Iniciado com 3 eventos
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,468 - INFO - Tráfego normal: Email acesso de 38.19.172.147
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego normal: API solicitação de 22.74.170.38
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,469 - INFO - Tráfego suspeito detectado de 199.210.8.24
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:28,470 - INFO - SUCCESS: Ciclo de monitoramento #8: Concluído
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:33,561 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,527 - ERROR - ⚠️ ATAQUE SIMULADO: Varredura de Vulnerabilidades de 10.0.0.115:50120 via HTTPS - Risco ALTO
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:34,528 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,029 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.115
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,030 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.115 connectport=8888 connectaddress=192.168.1.250
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,031 - INFO - SUCCESS: ✅ IP 10.0.0.115 redirecionado com sucesso para honeypot em 192.168.1.250:8888
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:35,032 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:40,130 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,029 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Ciclo de monitoramento #9: Iniciado com 5 eventos
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,031 - INFO - Tráfego suspeito detectado de 202.72.236.185
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: FTP acesso de 123.103.217.233
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,032 - INFO - Tráfego normal: Email solicitação de 128.52.240.42
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: DNS acesso de 221.253.16.164
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,033 - INFO - Tráfego normal: Email conexão de 177.240.142.148
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:41,034 - INFO - SUCCESS: Ciclo de monitoramento #9: Concluído
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:46,135 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,002 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.169.133:51837 via SSH - Risco BAIXO
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,003 - INFO - ⚠️ Analisando ameaça do IP: 13.32.169.133
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:47,505 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:52,634 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,520 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Ciclo de monitoramento #10: Iniciado com 4 eventos
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,521 - INFO - Tráfego normal: Database conexão de 175.193.234.4
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,522 - INFO - Tráfego normal: API acesso de 114.232.148.209
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email conexão de 115.228.199.55
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,523 - INFO - Tráfego normal: Email acesso de 45.144.45.150
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:53,524 - INFO - SUCCESS: Ciclo de monitoramento #10: Concluído
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:58,623 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,658 - INFO - ⚠️ ATAQUE SIMULADO: Alteração de Configuração de 151.101.79.136:61255 via SSH - Risco BAIXO
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:53:59,659 - INFO - ⚠️ Analisando ameaça do IP: 151.101.79.136
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:00,159 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:05,261 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,172 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,173 - INFO - Ciclo de monitoramento #11: Iniciado com 5 eventos
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,174 - INFO - Tráfego normal: Database conexão de 176.152.87.235
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: FTP conexão de 95.51.165.43
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,175 - INFO - Tráfego normal: Email solicitação de 221.5.65.250
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database solicitação de 205.15.12.18
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,176 - INFO - Tráfego normal: Database acesso de 189.134.190.135
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:06,177 - INFO - SUCCESS: Ciclo de monitoramento #11: Concluído
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:11,268 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,223 - INFO - ⚠️ ATAQUE SIMULADO: Tentativa de Login de Nova Localização de 216.58.215.74:33124 via RDP - Risco BAIXO
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,224 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.74
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:12,726 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:17,846 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,780 - INFO - Iniciando ciclo de monitoramento da rede
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,781 - INFO - Ciclo de monitoramento #12: Iniciado com 3 eventos
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,782 - INFO - Tráfego normal: API conexão de 139.23.230.205
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego suspeito detectado de 128.119.129.164
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,783 - INFO - Tráfego normal: FTP solicitação de 182.94.111.14
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
