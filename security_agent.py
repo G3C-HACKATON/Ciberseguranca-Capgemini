@@ -322,8 +322,8 @@ class SecurityAgent:
         """
         # Verificar se o IP já está redirecionado
         if ip in st.session_state.honeypot_ips:
-            self.logger.log_activity(f"IP {ip} já está redirecionado para o honeypot", 'info')
-            return "já está redirecionado para honeypot"
+            self.logger.log_activity(f"IP {ip} já está redirecionado para honeypot", 'info')
+            return "já está redirecionado"
             
         # Registrar ação
         self.logger.log_activity(f"🍯 Redirecionando IP malicioso para honeypot: {ip}", 'success')
@@ -335,10 +335,10 @@ class SecurityAgent:
         success = self._real_honeypot_redirect(ip)
         
         if success:
-            self.logger.log_activity(f"✅ IP {ip} redirecionado com sucesso para honeypot em {self.honeypot_ip}:{self.honeypot_port}", 'success')
-            return "redirecionado para honeypot"
+            self.logger.log_activity(f"✅ IP {ip} redirecionado para honeypot com sucesso", 'success')
+            return "redirecionado com sucesso"
         else:
-            self.logger.log_activity(f"⚠️ Redirecionamento do IP {ip} registrado apenas no sistema (falha na configuração)", 'warning')
+            self.logger.log_activity(f"⚠️ Redirecionamento do IP {ip} registrado apenas no sistema", 'warning')
             return "registrado apenas no sistema"
     
     def _real_honeypot_redirect(self, ip):
@@ -391,4 +391,53 @@ class SecurityAgent:
                 
         except Exception as e:
             self.logger.log_activity(f"Erro ao configurar redirecionamento para honeypot: {str(e)}", "error")
-            return False 
+            return False
+    
+    def get_threat_stats(self):
+        """Retorna as estatísticas de ameaças registradas pelo sistema
+        
+        Returns:
+            dict: Estatísticas de ameaças (total, por nível, etc.)
+        """
+        # Calcular total de ameaças
+        total_threats = sum(st.session_state.threat_stats.values())
+        
+        # Criar estatísticas formatadas
+        stats = {
+            "total": total_threats,
+            "high": st.session_state.threat_stats.get("high", 0),
+            "medium": st.session_state.threat_stats.get("medium", 0),
+            "low": st.session_state.threat_stats.get("low", 0),
+            "mitigated": len(st.session_state.blocked_ips) + len(st.session_state.honeypot_ips),
+            "by_action": {
+                "block": len(st.session_state.blocked_ips),
+                "honeypot": len(st.session_state.honeypot_ips),
+                "monitor": len(st.session_state.monitored_ips)
+            }
+        }
+        
+        return stats 
+
+    def get_blocked_ips(self):
+        """Retorna a lista de IPs bloqueados
+        
+        Returns:
+            list: Lista de IPs bloqueados
+        """
+        return list(st.session_state.blocked_ips)
+    
+    def get_monitored_ips(self):
+        """Retorna a lista de IPs em monitoramento
+        
+        Returns:
+            list: Lista de IPs monitorados
+        """
+        return list(st.session_state.monitored_ips)
+    
+    def get_honeypot_ips(self):
+        """Retorna a lista de IPs redirecionados para honeypot
+        
+        Returns:
+            list: Lista de IPs no honeypot
+        """
+        return list(st.session_state.honeypot_ips) 

@@ -1891,3 +1891,931 @@
 2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
 2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
 2025-03-27 15:54:18,784 - INFO - SUCCESS: Ciclo de monitoramento #12: Concluído
+2025-06-06 20:12:40,471 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:12:46,186 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 192.168.1.220:51575 via UDP - Risco ALTO
+2025-06-06 20:12:46,187 - INFO - ⚠️ Analisando ameaça do IP: 192.168.1.220
+2025-06-06 20:12:46,689 - INFO - SUCCESS: 🛡️ Bloqueando IP malicioso: 192.168.1.220
+2025-06-06 20:12:46,689 - INFO - Criando regra de bloqueio de entrada para IP 192.168.1.220
+2025-06-06 20:12:46,842 - ERROR - Erro ao criar regra de entrada: 
+2025-06-06 20:12:46,842 - INFO - ⚠️ Bloqueio do IP 192.168.1.220 registrado apenas no sistema (falha no firewall)
+2025-06-06 20:12:46,842 - ERROR - 🔒 Análise concluída. Nível de ameaça: ALTO - Bloqueado
+2025-06-06 20:12:46,844 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 8.8.8.192:44854 via TCP - Risco MÉDIO
+2025-06-06 20:12:46,845 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.192
+2025-06-06 20:12:47,346 - INFO - IP 8.8.8.192 adicionado ao monitoramento contínuo
+2025-06-06 20:12:47,346 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:12:47,346 - INFO - 👁️ IP 8.8.8.192 adicionado ao monitoramento contínuo
+2025-06-06 20:12:47,347 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.236:7080 via DNS - Risco BAIXO
+2025-06-06 20:12:47,347 - INFO - ⚠️ Analisando ameaça do IP: 13.32.236
+2025-06-06 20:12:47,848 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:12:47,848 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:12:47,848 - INFO - Ciclo de monitoramento #1: Iniciado com 3 eventos
+2025-06-06 20:12:47,850 - INFO - Tráfego normal: DNS conexão de 85.218.119.61
+2025-06-06 20:12:47,850 - INFO - Tráfego normal: Database conexão de 185.72.123.213
+2025-06-06 20:12:47,851 - INFO - Tráfego suspeito detectado de 20.165.211.150
+2025-06-06 20:12:47,851 - INFO - SUCCESS: Ciclo de monitoramento #1: Concluído
+2025-06-06 20:12:55,361 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:12:55,361 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:12:56,238 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:12:56,238 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:12:56,239 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:12:56,239 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:12:56,240 - INFO - Tráfego normal: API solicitação de 130.162.188.3
+2025-06-06 20:12:56,240 - INFO - Tráfego normal: API solicitação de 130.162.188.3
+2025-06-06 20:12:56,241 - INFO - Tráfego suspeito detectado de 181.51.163.72
+2025-06-06 20:12:56,241 - INFO - Tráfego suspeito detectado de 181.51.163.72
+2025-06-06 20:12:56,242 - INFO - Tráfego normal: Email solicitação de 179.37.170.43
+2025-06-06 20:12:56,242 - INFO - Tráfego normal: Email solicitação de 179.37.170.43
+2025-06-06 20:12:56,246 - INFO - Tráfego normal: API solicitação de 128.27.238.81
+2025-06-06 20:12:56,246 - INFO - Tráfego normal: API solicitação de 128.27.238.81
+2025-06-06 20:12:56,246 - INFO - Tráfego normal: API solicitação de 86.57.102.112
+2025-06-06 20:12:56,246 - INFO - Tráfego normal: API solicitação de 86.57.102.112
+2025-06-06 20:12:56,247 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:12:56,247 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:12:56,248 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.173.155:25382 via HTTPS - Risco BAIXO
+2025-06-06 20:12:56,248 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 13.32.173.155:25382 via HTTPS - Risco BAIXO
+2025-06-06 20:12:56,249 - INFO - ⚠️ Analisando ameaça do IP: 13.32.173.155
+2025-06-06 20:12:56,249 - INFO - ⚠️ Analisando ameaça do IP: 13.32.173.155
+2025-06-06 20:12:56,751 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:12:56,751 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:13:01,859 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:01,859 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:01,859 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:02,033 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:02,033 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:02,033 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:02,033 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:03,430 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:03,430 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:03,430 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:03,430 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:13:03,430 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:19,672 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:21,196 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 192.168.1.182:4087 via HTTP - Risco ALTO
+2025-06-06 20:16:21,197 - INFO - ⚠️ Analisando ameaça do IP: 192.168.1.182
+2025-06-06 20:16:21,699 - INFO - SUCCESS: 🛡️ Bloqueando IP malicioso: 192.168.1.182
+2025-06-06 20:16:21,699 - INFO - Criando regra de bloqueio de entrada para IP 192.168.1.182
+2025-06-06 20:16:21,870 - ERROR - Erro ao criar regra de entrada: 
+2025-06-06 20:16:21,871 - INFO - ⚠️ Bloqueio do IP 192.168.1.182 registrado apenas no sistema (falha no firewall)
+2025-06-06 20:16:21,872 - ERROR - 🔒 Análise concluída. Nível de ameaça: ALTO - Bloqueado
+2025-06-06 20:16:21,874 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 1.1.1.250:1415 via TCP - Risco MÉDIO
+2025-06-06 20:16:21,875 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.250
+2025-06-06 20:16:22,376 - INFO - IP 1.1.1.250 adicionado ao monitoramento contínuo
+2025-06-06 20:16:22,376 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:22,377 - INFO - 👁️ IP 1.1.1.250 adicionado ao monitoramento contínuo
+2025-06-06 20:16:22,377 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 151.101.196:32578 via HTTP - Risco BAIXO
+2025-06-06 20:16:22,378 - INFO - ⚠️ Analisando ameaça do IP: 151.101.196
+2025-06-06 20:16:22,879 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:16:22,880 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:16:22,882 - INFO - Ciclo de monitoramento #1: Iniciado com 5 eventos
+2025-06-06 20:16:22,883 - INFO - Tráfego normal: DNS solicitação de 156.126.225.53
+2025-06-06 20:16:22,884 - INFO - Tráfego normal: Email acesso de 189.137.103.186
+2025-06-06 20:16:22,885 - INFO - Tráfego normal: Email solicitação de 171.43.81.118
+2025-06-06 20:16:22,885 - INFO - Tráfego normal: API conexão de 139.115.87.239
+2025-06-06 20:16:22,886 - INFO - Tráfego suspeito detectado de 195.39.7.86
+2025-06-06 20:16:22,886 - INFO - SUCCESS: Ciclo de monitoramento #1: Concluído
+2025-06-06 20:16:29,042 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:29,042 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:30,156 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 8.8.8.135:5752 via TCP - Risco MÉDIO
+2025-06-06 20:16:30,156 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 8.8.8.135:5752 via TCP - Risco MÉDIO
+2025-06-06 20:16:30,157 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.135
+2025-06-06 20:16:30,157 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.135
+2025-06-06 20:16:30,660 - INFO - IP 8.8.8.135 adicionado ao monitoramento contínuo
+2025-06-06 20:16:30,660 - INFO - IP 8.8.8.135 adicionado ao monitoramento contínuo
+2025-06-06 20:16:30,660 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:30,660 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:30,661 - INFO - 👁️ IP 8.8.8.135 adicionado ao monitoramento contínuo
+2025-06-06 20:16:30,661 - INFO - 👁️ IP 8.8.8.135 adicionado ao monitoramento contínuo
+2025-06-06 20:16:35,936 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:35,936 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:35,936 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:36,844 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:16:36,844 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:16:36,844 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:16:36,847 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:16:36,847 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:16:36,847 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:16:36,850 - INFO - Tráfego suspeito detectado de 170.203.144.77
+2025-06-06 20:16:36,850 - INFO - Tráfego suspeito detectado de 170.203.144.77
+2025-06-06 20:16:36,850 - INFO - Tráfego suspeito detectado de 170.203.144.77
+2025-06-06 20:16:36,851 - INFO - Tráfego suspeito detectado de 175.73.115.85
+2025-06-06 20:16:36,851 - INFO - Tráfego suspeito detectado de 175.73.115.85
+2025-06-06 20:16:36,851 - INFO - Tráfego suspeito detectado de 175.73.115.85
+2025-06-06 20:16:36,852 - INFO - Tráfego normal: Database acesso de 218.219.27.14
+2025-06-06 20:16:36,852 - INFO - Tráfego normal: Database acesso de 218.219.27.14
+2025-06-06 20:16:36,852 - INFO - Tráfego normal: Database acesso de 218.219.27.14
+2025-06-06 20:16:36,854 - INFO - Tráfego normal: Web solicitação de 111.236.10.246
+2025-06-06 20:16:36,854 - INFO - Tráfego normal: Web solicitação de 111.236.10.246
+2025-06-06 20:16:36,854 - INFO - Tráfego normal: Web solicitação de 111.236.10.246
+2025-06-06 20:16:36,856 - INFO - Tráfego normal: DNS acesso de 23.250.1.161
+2025-06-06 20:16:36,856 - INFO - Tráfego normal: DNS acesso de 23.250.1.161
+2025-06-06 20:16:36,856 - INFO - Tráfego normal: DNS acesso de 23.250.1.161
+2025-06-06 20:16:36,857 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:16:36,857 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:16:36,857 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:16:41,505 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:41,505 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:41,505 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:41,505 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:42,437 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Anômalo de Usuário de 8.8.8.179:31722 via SMB - Risco MÉDIO
+2025-06-06 20:16:42,437 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Anômalo de Usuário de 8.8.8.179:31722 via SMB - Risco MÉDIO
+2025-06-06 20:16:42,437 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Anômalo de Usuário de 8.8.8.179:31722 via SMB - Risco MÉDIO
+2025-06-06 20:16:42,437 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Anômalo de Usuário de 8.8.8.179:31722 via SMB - Risco MÉDIO
+2025-06-06 20:16:42,440 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.179
+2025-06-06 20:16:42,440 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.179
+2025-06-06 20:16:42,440 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.179
+2025-06-06 20:16:42,440 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.179
+2025-06-06 20:16:42,942 - INFO - IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,942 - INFO - IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,942 - INFO - IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,942 - INFO - IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,946 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:42,946 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:42,946 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:42,946 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:16:42,948 - INFO - 👁️ IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,948 - INFO - 👁️ IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,948 - INFO - 👁️ IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:42,948 - INFO - 👁️ IP 8.8.8.179 adicionado ao monitoramento contínuo
+2025-06-06 20:16:43,127 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:43,127 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:43,127 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:43,127 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:16:43,127 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:02,223 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:02,223 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:02,223 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:02,223 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:02,223 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:02,223 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:03,157 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,043 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,051 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,053 - INFO - Tráfego normal: FTP conexão de 113.94.44.250
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,057 - INFO - Tráfego normal: FTP solicitação de 3.247.66.103
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,059 - INFO - Tráfego normal: Web solicitação de 172.159.168.202
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,061 - INFO - Tráfego normal: FTP acesso de 97.216.17.70
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,067 - INFO - Tráfego normal: DNS conexão de 51.236.208.16
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,069 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,073 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 195.12.100.157:35421 via SSH - Risco MÉDIO
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,075 - INFO - ⚠️ Analisando ameaça do IP: 195.12.100.157
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,578 - INFO - IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,583 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:04,586 - INFO - 👁️ IP 195.12.100.157 adicionado ao monitoramento contínuo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:09,722 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:15,686 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,533 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,536 - INFO - Ciclo de monitoramento #4: Iniciado com 5 eventos
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,543 - INFO - Tráfego normal: Email solicitação de 206.164.143.117
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,547 - INFO - Tráfego normal: Web solicitação de 162.142.222.76
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,550 - INFO - Tráfego normal: API solicitação de 129.246.80.56
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,553 - INFO - Tráfego normal: DNS conexão de 66.238.185.156
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,557 - INFO - Tráfego normal: FTP acesso de 204.0.123.200
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,563 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,566 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 195.12.149.56:645 via UDP - Risco MÉDIO
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:16,568 - INFO - ⚠️ Analisando ameaça do IP: 195.12.149.56
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,073 - INFO - IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,078 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:17,082 - INFO - 👁️ IP 195.12.149.56 adicionado ao monitoramento contínuo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:17:22,226 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:26,458 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:27,878 - ERROR - ⚠️ ATAQUE SIMULADO: Execução de Código Remoto de 10.0.0.16:49775 via UDP - Risco ALTO
+2025-06-06 20:18:27,879 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.16
+2025-06-06 20:18:28,381 - INFO - SUCCESS: 🛡️ Bloqueando IP malicioso: 10.0.0.16
+2025-06-06 20:18:28,381 - INFO - Criando regra de bloqueio de entrada para IP 10.0.0.16
+2025-06-06 20:18:28,500 - ERROR - Erro ao criar regra de entrada: 
+2025-06-06 20:18:28,501 - INFO - ⚠️ Bloqueio do IP 10.0.0.16 registrado apenas no sistema (falha no firewall)
+2025-06-06 20:18:28,502 - ERROR - 🔒 Análise concluída. Nível de ameaça: ALTO - Bloqueado
+2025-06-06 20:18:28,503 - INFO - ⚠️ ATAQUE SIMULADO: Atividade de Rede Suspeita de 8.8.8.17:61607 via TCP - Risco MÉDIO
+2025-06-06 20:18:28,504 - INFO - ⚠️ Analisando ameaça do IP: 8.8.8.17
+2025-06-06 20:18:29,006 - INFO - IP 8.8.8.17 adicionado ao monitoramento contínuo
+2025-06-06 20:18:29,006 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:18:29,007 - INFO - 👁️ IP 8.8.8.17 adicionado ao monitoramento contínuo
+2025-06-06 20:18:29,007 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 216.58.215.37:41941 via HTTPS - Risco BAIXO
+2025-06-06 20:18:29,008 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.37
+2025-06-06 20:18:29,509 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:29,509 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:29,510 - INFO - Ciclo de monitoramento #1: Iniciado com 3 eventos
+2025-06-06 20:18:29,510 - INFO - Tráfego normal: FTP acesso de 82.3.15.2
+2025-06-06 20:18:29,511 - INFO - Tráfego suspeito detectado de 123.88.70.251
+2025-06-06 20:18:29,511 - INFO - Tráfego normal: Email solicitação de 30.31.152.242
+2025-06-06 20:18:29,512 - INFO - SUCCESS: Ciclo de monitoramento #1: Concluído
+2025-06-06 20:18:35,372 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:35,372 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:36,318 - ERROR - ⚠️ ATAQUE SIMULADO: Comunicação com Servidor C&C de 172.16.0.197:55940 via HTTPS - Risco ALTO
+2025-06-06 20:18:36,318 - ERROR - ⚠️ ATAQUE SIMULADO: Comunicação com Servidor C&C de 172.16.0.197:55940 via HTTPS - Risco ALTO
+2025-06-06 20:18:36,319 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.197
+2025-06-06 20:18:36,319 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.197
+2025-06-06 20:18:36,821 - INFO - SUCCESS: 🛡️ Bloqueando IP malicioso: 172.16.0.197
+2025-06-06 20:18:36,821 - INFO - SUCCESS: 🛡️ Bloqueando IP malicioso: 172.16.0.197
+2025-06-06 20:18:36,822 - INFO - Criando regra de bloqueio de entrada para IP 172.16.0.197
+2025-06-06 20:18:36,822 - INFO - Criando regra de bloqueio de entrada para IP 172.16.0.197
+2025-06-06 20:18:36,927 - ERROR - Erro ao criar regra de entrada: 
+2025-06-06 20:18:36,927 - ERROR - Erro ao criar regra de entrada: 
+2025-06-06 20:18:36,929 - INFO - ⚠️ Bloqueio do IP 172.16.0.197 registrado apenas no sistema (falha no firewall)
+2025-06-06 20:18:36,929 - INFO - ⚠️ Bloqueio do IP 172.16.0.197 registrado apenas no sistema (falha no firewall)
+2025-06-06 20:18:36,929 - ERROR - 🔒 Análise concluída. Nível de ameaça: ALTO - Bloqueado
+2025-06-06 20:18:36,929 - ERROR - 🔒 Análise concluída. Nível de ameaça: ALTO - Bloqueado
+2025-06-06 20:18:37,064 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:37,064 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:37,064 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:37,926 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:37,926 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:37,926 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:37,929 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:18:37,929 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:18:37,929 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:18:37,931 - INFO - Tráfego suspeito detectado de 125.187.118.242
+2025-06-06 20:18:37,931 - INFO - Tráfego suspeito detectado de 125.187.118.242
+2025-06-06 20:18:37,931 - INFO - Tráfego suspeito detectado de 125.187.118.242
+2025-06-06 20:18:37,932 - INFO - Tráfego normal: API solicitação de 101.225.148.224
+2025-06-06 20:18:37,932 - INFO - Tráfego normal: API solicitação de 101.225.148.224
+2025-06-06 20:18:37,932 - INFO - Tráfego normal: API solicitação de 101.225.148.224
+2025-06-06 20:18:37,934 - INFO - Tráfego normal: FTP conexão de 89.105.135.88
+2025-06-06 20:18:37,934 - INFO - Tráfego normal: FTP conexão de 89.105.135.88
+2025-06-06 20:18:37,934 - INFO - Tráfego normal: FTP conexão de 89.105.135.88
+2025-06-06 20:18:37,935 - INFO - Tráfego normal: DNS solicitação de 84.130.245.121
+2025-06-06 20:18:37,935 - INFO - Tráfego normal: DNS solicitação de 84.130.245.121
+2025-06-06 20:18:37,935 - INFO - Tráfego normal: DNS solicitação de 84.130.245.121
+2025-06-06 20:18:37,935 - INFO - Tráfego normal: Web acesso de 192.3.183.212
+2025-06-06 20:18:37,935 - INFO - Tráfego normal: Web acesso de 192.3.183.212
+2025-06-06 20:18:37,935 - INFO - Tráfego normal: Web acesso de 192.3.183.212
+2025-06-06 20:18:37,937 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:18:37,937 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:18:37,937 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:18:38,069 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:38,069 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:38,069 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:38,069 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:44,560 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:44,560 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:44,560 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:44,560 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:44,560 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:57,542 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:57,542 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:57,542 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:57,542 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:57,542 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:57,542 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:58,467 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,396 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,400 - INFO - Ciclo de monitoramento #3: Iniciado com 3 eventos
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,402 - INFO - Tráfego normal: Web acesso de 80.150.42.74
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,404 - INFO - Tráfego normal: Web conexão de 6.92.27.72
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,408 - INFO - Tráfego normal: FTP acesso de 88.120.145.38
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,410 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,413 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Fora de Padrão de 13.32.183.88:57946 via SSH - Risco BAIXO
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,415 - INFO - ⚠️ Analisando ameaça do IP: 13.32.183.88
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:18:59,918 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:01,493 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:02,453 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:06,446 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:19:51,306 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:20:36,440 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:29,879 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:30,993 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,028 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,036 - INFO - Ciclo de monitoramento #4: Iniciado com 4 eventos
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,041 - INFO - Tráfego normal: Web conexão de 166.196.72.243
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,046 - INFO - Tráfego normal: Database conexão de 97.144.34.116
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,051 - INFO - Tráfego normal: API conexão de 139.209.223.25
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,057 - INFO - Tráfego normal: Database solicitação de 205.198.227.94
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,061 - INFO - SUCCESS: Ciclo de monitoramento #4: Concluído
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,068 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.25:27171 via HTTPS - Risco MÉDIO
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,073 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.25
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,579 - INFO - IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,586 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:21:32,591 - INFO - 👁️ IP 1.1.1.25 adicionado ao monitoramento contínuo
+2025-06-06 20:24:49,181 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:24:50,511 - ERROR - ⚠️ ATAQUE SIMULADO: Ataque de Força Bruta de 10.0.0.51:65169 via HTTPS - Risco ALTO
+2025-06-06 20:24:50,512 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.51
+2025-06-06 20:24:51,014 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.51
+2025-06-06 20:24:51,014 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-06-06 20:24:51,015 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.51 connectport=8888 connectaddress=192.168.1.250
+2025-06-06 20:24:51,016 - INFO - SUCCESS: ✅ IP 10.0.0.51 redirecionado para honeypot com sucesso
+2025-06-06 20:24:51,016 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-06-06 20:24:51,017 - INFO - ⚠️ ATAQUE SIMULADO: Conexão Suspeita de 1.1.1.5:51206 via HTTP - Risco MÉDIO
+2025-06-06 20:24:51,018 - INFO - ⚠️ Analisando ameaça do IP: 1.1.1.5
+2025-06-06 20:24:51,519 - INFO - IP 1.1.1.5 adicionado ao monitoramento contínuo
+2025-06-06 20:24:51,520 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:24:51,520 - INFO - 👁️ IP 1.1.1.5 adicionado ao monitoramento contínuo
+2025-06-06 20:24:51,521 - INFO - ⚠️ ATAQUE SIMULADO: Acesso a Recursos Sensíveis de 216.58.215.167:31679 via HTTP - Risco BAIXO
+2025-06-06 20:24:51,522 - INFO - ⚠️ Analisando ameaça do IP: 216.58.215.167
+2025-06-06 20:24:52,024 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:24:52,025 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:24:52,025 - INFO - Ciclo de monitoramento #1: Iniciado com 5 eventos
+2025-06-06 20:24:52,026 - INFO - Tráfego suspeito detectado de 198.2.199.146
+2025-06-06 20:24:52,027 - INFO - Tráfego normal: FTP conexão de 29.163.172.21
+2025-06-06 20:24:52,027 - INFO - Tráfego suspeito detectado de 60.226.11.219
+2025-06-06 20:24:52,029 - INFO - Tráfego normal: API solicitação de 173.192.220.215
+2025-06-06 20:24:52,029 - INFO - Tráfego suspeito detectado de 205.99.89.6
+2025-06-06 20:24:52,030 - INFO - SUCCESS: Ciclo de monitoramento #1: Concluído
+2025-06-06 20:24:58,252 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:24:58,252 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:24:59,136 - ERROR - ⚠️ ATAQUE SIMULADO: Comunicação com Servidor C&C de 10.0.0.3:21006 via SMB - Risco ALTO
+2025-06-06 20:24:59,136 - ERROR - ⚠️ ATAQUE SIMULADO: Comunicação com Servidor C&C de 10.0.0.3:21006 via SMB - Risco ALTO
+2025-06-06 20:24:59,137 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.3
+2025-06-06 20:24:59,137 - INFO - ⚠️ Analisando ameaça do IP: 10.0.0.3
+2025-06-06 20:24:59,639 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.3
+2025-06-06 20:24:59,639 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 10.0.0.3
+2025-06-06 20:24:59,640 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-06-06 20:24:59,640 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-06-06 20:24:59,640 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.3 connectport=8888 connectaddress=192.168.1.250
+2025-06-06 20:24:59,640 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=10.0.0.3 connectport=8888 connectaddress=192.168.1.250
+2025-06-06 20:24:59,641 - INFO - SUCCESS: ✅ IP 10.0.0.3 redirecionado para honeypot com sucesso
+2025-06-06 20:24:59,641 - INFO - SUCCESS: ✅ IP 10.0.0.3 redirecionado para honeypot com sucesso
+2025-06-06 20:24:59,642 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-06-06 20:24:59,642 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-06-06 20:25:01,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:01,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:01,099 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:01,920 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:25:01,920 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:25:01,920 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:25:01,923 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:25:01,923 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:25:01,923 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:25:01,926 - INFO - Tráfego normal: Web solicitação de 116.238.66.11
+2025-06-06 20:25:01,926 - INFO - Tráfego normal: Web solicitação de 116.238.66.11
+2025-06-06 20:25:01,926 - INFO - Tráfego normal: Web solicitação de 116.238.66.11
+2025-06-06 20:25:01,928 - INFO - Tráfego normal: Database solicitação de 1.157.130.96
+2025-06-06 20:25:01,928 - INFO - Tráfego normal: Database solicitação de 1.157.130.96
+2025-06-06 20:25:01,928 - INFO - Tráfego normal: Database solicitação de 1.157.130.96
+2025-06-06 20:25:01,929 - INFO - Tráfego normal: DNS conexão de 117.65.185.50
+2025-06-06 20:25:01,929 - INFO - Tráfego normal: DNS conexão de 117.65.185.50
+2025-06-06 20:25:01,929 - INFO - Tráfego normal: DNS conexão de 117.65.185.50
+2025-06-06 20:25:01,930 - INFO - Tráfego normal: DNS acesso de 81.0.109.8
+2025-06-06 20:25:01,930 - INFO - Tráfego normal: DNS acesso de 81.0.109.8
+2025-06-06 20:25:01,930 - INFO - Tráfego normal: DNS acesso de 81.0.109.8
+2025-06-06 20:25:01,931 - INFO - Tráfego normal: Database conexão de 176.147.41.31
+2025-06-06 20:25:01,931 - INFO - Tráfego normal: Database conexão de 176.147.41.31
+2025-06-06 20:25:01,931 - INFO - Tráfego normal: Database conexão de 176.147.41.31
+2025-06-06 20:25:01,932 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:25:01,932 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:25:01,932 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:25:02,068 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:02,068 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:02,068 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:02,068 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:12,663 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:12,663 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:12,663 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:12,663 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:12,663 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:31,911 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:31,911 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:31,911 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:31,911 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:31,911 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:25:31,911 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:30:10,218 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:30:30,179 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:31:25,024 - INFO - SUCCESS: Sistema inicializado com monitoramento autônomo ativo
+2025-06-06 20:31:25,025 - ERROR - ⚠️ ATAQUE SIMULADO: Tentativa de Acesso Não Autorizado de 172.16.0.106:55913 via HTTP - Risco ALTO
+2025-06-06 20:31:25,025 - INFO - ⚠️ Analisando ameaça do IP: 172.16.0.106
+2025-06-06 20:31:25,527 - INFO - SUCCESS: 🍯 Redirecionando IP malicioso para honeypot: 172.16.0.106
+2025-06-06 20:31:25,528 - INFO - Configurando redirecionamento para honeypot em 192.168.1.250:8888
+2025-06-06 20:31:25,528 - INFO - Comando simulado: netsh interface portproxy add v4tov4 listenport=80 listenaddress=172.16.0.106 connectport=8888 connectaddress=192.168.1.250
+2025-06-06 20:31:25,530 - INFO - SUCCESS: ✅ IP 172.16.0.106 redirecionado para honeypot com sucesso
+2025-06-06 20:31:25,531 - ERROR - 🍯 Análise concluída. Nível de ameaça: ALTO - Redirecionado para honeypot
+2025-06-06 20:31:25,531 - INFO - ⚠️ ATAQUE SIMULADO: Transferência Incomum de Dados de 208.67.222.247:55382 via DNS - Risco MÉDIO
+2025-06-06 20:31:25,533 - INFO - ⚠️ Analisando ameaça do IP: 208.67.222.247
+2025-06-06 20:31:26,035 - INFO - IP 208.67.222.247 adicionado ao monitoramento contínuo
+2025-06-06 20:31:26,036 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:31:26,037 - INFO - 👁️ IP 208.67.222.247 adicionado ao monitoramento contínuo
+2025-06-06 20:31:26,038 - INFO - ⚠️ ATAQUE SIMULADO: Atividade Incomum de 151.101.146:54235 via HTTPS - Risco BAIXO
+2025-06-06 20:31:26,039 - INFO - ⚠️ Analisando ameaça do IP: 151.101.146
+2025-06-06 20:31:26,540 - INFO - 🔒 Análise concluída. Nível de ameaça: BAIXO
+2025-06-06 20:31:26,542 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:31:26,543 - INFO - Ciclo de monitoramento #1: Iniciado com 4 eventos
+2025-06-06 20:31:26,546 - INFO - Tráfego normal: Web solicitação de 177.45.188.8
+2025-06-06 20:31:26,548 - INFO - Tráfego normal: DNS conexão de 98.148.134.53
+2025-06-06 20:31:26,550 - INFO - Tráfego normal: FTP solicitação de 119.73.180.79
+2025-06-06 20:31:26,552 - INFO - Tráfego normal: DNS acesso de 124.47.108.148
+2025-06-06 20:31:26,554 - INFO - SUCCESS: Ciclo de monitoramento #1: Concluído
+2025-06-06 20:31:43,162 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:31:43,163 - INFO - Ciclo de monitoramento #2: Iniciado com 5 eventos
+2025-06-06 20:31:43,163 - INFO - Tráfego suspeito detectado de 110.14.235.62
+2025-06-06 20:31:43,164 - INFO - Tráfego normal: Database conexão de 100.163.48.198
+2025-06-06 20:31:43,166 - INFO - Tráfego normal: Database solicitação de 179.30.74.137
+2025-06-06 20:31:43,166 - INFO - Tráfego normal: Database acesso de 163.211.170.146
+2025-06-06 20:31:43,167 - INFO - Tráfego normal: Email solicitação de 157.146.139.156
+2025-06-06 20:31:43,168 - INFO - SUCCESS: Ciclo de monitoramento #2: Concluído
+2025-06-06 20:31:43,170 - ERROR - ⚠️ ATAQUE SIMULADO: Injeção de SQL de 185.25.19.218:27227 via TCP - Risco ALTO
+2025-06-06 20:31:43,170 - INFO - ⚠️ Analisando ameaça do IP: 185.25.19.218
+2025-06-06 20:31:43,672 - INFO - SUCCESS: 🛡️ Bloqueando IP malicioso: 185.25.19.218
+2025-06-06 20:31:43,673 - INFO - Criando regra de bloqueio de entrada para IP 185.25.19.218
+2025-06-06 20:31:43,834 - ERROR - Erro ao criar regra de entrada: 
+2025-06-06 20:31:43,834 - INFO - ⚠️ Bloqueio do IP 185.25.19.218 registrado apenas no sistema (falha no firewall)
+2025-06-06 20:31:43,835 - ERROR - 🔒 Análise concluída. Nível de ameaça: ALTO - Bloqueado
+2025-06-06 20:32:09,386 - INFO - Iniciando ciclo de monitoramento da rede
+2025-06-06 20:32:09,387 - INFO - Ciclo de monitoramento #3: Iniciado com 5 eventos
+2025-06-06 20:32:09,388 - INFO - Tráfego normal: Email solicitação de 61.147.189.3
+2025-06-06 20:32:09,389 - INFO - Tráfego normal: FTP acesso de 1.229.120.83
+2025-06-06 20:32:09,391 - INFO - Tráfego suspeito detectado de 109.177.158.182
+2025-06-06 20:32:09,392 - INFO - Tráfego suspeito detectado de 142.241.221.208
+2025-06-06 20:32:09,393 - INFO - Tráfego normal: DNS solicitação de 29.221.241.31
+2025-06-06 20:32:09,394 - INFO - SUCCESS: Ciclo de monitoramento #3: Concluído
+2025-06-06 20:32:09,395 - INFO - ⚠️ ATAQUE SIMULADO: Comportamento Anômalo de Usuário de 208.67.222.153:59530 via DNS - Risco MÉDIO
+2025-06-06 20:32:09,396 - INFO - ⚠️ Analisando ameaça do IP: 208.67.222.153
+2025-06-06 20:32:09,897 - INFO - IP 208.67.222.153 adicionado ao monitoramento contínuo
+2025-06-06 20:32:09,897 - INFO - 🔍 Análise concluída. Nível de ameaça: MÉDIO
+2025-06-06 20:32:09,897 - INFO - 👁️ IP 208.67.222.153 adicionado ao monitoramento contínuo

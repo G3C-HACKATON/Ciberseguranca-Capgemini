@@ -6,6 +6,9 @@ from datetime import datetime
 import random
 import platform
 import subprocess
+import sys
+import os
+import importlib.util
 
 class SecurityUI:
     """Classe para gerenciar a interface do usuário do sistema de segurança"""
@@ -21,6 +24,12 @@ class SecurityUI:
         """Iniciar a interface Streamlit"""
         # Configurações da página
         st.set_page_config(page_title="Agente Autônomo de Segurança", layout="wide")
+        
+        # Verificar se é uma requisição do chat
+        query_params = st.query_params
+        if "page" in query_params and query_params["page"] == "chat":
+            self._render_chat_page()
+            return
         
         # Inicializar estado da sessão
         self._initialize_session_state()
@@ -54,6 +63,37 @@ class SecurityUI:
             st.session_state.monitoring_cycles = 0
         if "last_attack_time" not in st.session_state:
             st.session_state.last_attack_time = 0
+    
+    def _render_chat_page(self):
+        """Renderiza a página de chat integrada com o agente de segurança"""
+        # Tentar importar o módulo de chat
+        try:
+            # Verificar se o módulo chat existe
+            chat_spec = importlib.util.find_spec("chat")
+            if chat_spec is None:
+                st.error("Módulo de chat não encontrado. Verifique se o arquivo chat.py está presente.")
+                return
+            
+            # Importar a função run_streamlit_mode do módulo chat
+            from chat import run_streamlit_mode
+            
+            # Empacotar componentes de segurança
+            security_components = {
+                "config": self.config,
+                "logger": self.logger,
+                "threat_intel": self.threat_intel,
+                "security_agent": self.security_agent
+            }
+            
+            # Executar o modo Streamlit do chat
+            run_streamlit_mode(security_components)
+            
+        except ImportError as e:
+            st.error(f"Erro ao importar módulo de chat: {str(e)}")
+        except Exception as e:
+            st.error(f"Erro ao executar o chat: {str(e)}")
+            import traceback
+            st.error(traceback.format_exc())
     
     def _auto_simulate_attack(self):
         """Simulação automática de ataques"""
@@ -379,6 +419,17 @@ class SecurityUI:
             st.sidebar.success("Sistema de Monitoramento Ativo")
         else:
             st.sidebar.warning("Sistema de Monitoramento Inativo")
+        
+        # Botão para acessar o chat de segurança
+        st.sidebar.markdown("---")
+        st.sidebar.subheader("💬 Chat de Segurança")
+        
+        if st.sidebar.button("Acessar Assistente CyberBot", use_container_width=True):
+            # Alternar para a página de chat
+            st.query_params.page = "chat"
+            st.rerun()
+        
+        st.sidebar.markdown("---")
         
         # Lista de IPs Monitorados
         if st.session_state.get('monitored_ips'):
